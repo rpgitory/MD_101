@@ -1,0 +1,17 @@
+Deploy windows 10 with windows autopilot
+
+Autopilot  
+	: modern method of deploying windows 10 emphasize self-provisioning as it requires mimimal user input.
+	: it used to setup, and the machine will automatically join the organization's azure AD.	
+	: it is a new feature for deploying windows 10 pro, enterprise, and education versions to academic or corporate environments that leverages the felxibility of microsoft azure.
+	: The modern method of deploying windows 10 emphasize self-provisioning as it requires minimal user input and favors a fully automated setup of new devices.
+	: autopilot is a collection of technologies used to setup and pre-configure new devices, getting them ready for production use.
+
+
+what required to run autopilot in windows ?
+standard user account in azure active directory which is now Microsoft Entra ID.
+
+Exercise 2 Configure windows autopilot
+
+Set up autopilot, follow below steps
+	1 Gather the hardware identification (ID) of devices that will be deployed using windows autopilot

@@ -1,0 +1,58 @@
+Manage win10 deply methods
+
+what is managing modern desktop ?
+it is a modern desktop administration which deploy, configures, secures, manages, and monitors devices and client application in an enterprise environment.
+
+
+what are the deployments method can be used to deploy win10 ?
+modern[autopilot, in-placed upgrade], dynamic[subcription activation, Azure Active Directory/MDM, Provisioning package], traditional[bare metal, refersh, replace] deployment method.
+
+what is windows provisioning package ?
+container of collection of configuration.
+
+widnows assessment and deployment kit (WADK)
+	: is a collection of tools to simplify the deployment, migration, and upgrade of win systems.
+	: WADK inclused System Image Manager (SIM), Windows configuration designer, user state migration toolkit, volume activation management tool, windows performance toolkit, windows assessment toolkit, microsoft user experience virtualizaiton, applicaiton virtualizaiton.
+	: 
+
+what System Image Manager tool used ?
+it uses XML based answer files to answer common system prompts like computer name, organization name, and other things to automate the installation of win10.
+
+
+
+possible caused 
+1 This settings has not been modifired it will not be saved to the answer file in amd64_microsoft-windows-shell-setup-netural/visual effects 
+amd64_microsoft-windows-shell-setup-netural/windows_features
+
+possible solution : ignore that mesg and save it. make sure when open hyperledger VM ware so you give 2-4 minutes times load everything even if it looks nothing happended still wait for it else ready for circumstances lol
+
+Exercise 2 
+Create a windows PE ISO Image
+
+windows pre-installation environment (WinPE) 
+	: it is light weight operating system used for deployment, installation, and repair of windows 10 server OS.
+	: we can setup a hard drive before installing windows. install windows by using apps or scripts from a network or a local drive.
+
+Tasks
+	: prepare the hard drive before installing windows.
+	: install windows from network or local drive
+	: capture and apply windows image (.wim) to a prepared drive.
+	: modify windows while in an offline state.
+	: enable automatic recovery tools
+	: recover data from unbootable disk volumes
+	: add custom shell like windows powershell
+	
+
+Windows Assessment and Deployment Kit (ADK)
+	: it includes a pre-configured ISO image useful for booting up a bare-metal computer with the essential network drivers and connect to network shares where the windows 10 install images are possibly located.
+	: windows ADK and windows performance toolkit together, they provide a complete solution for evaluating overall computer performance and automating the deployment of the windows OS to new PCs.
+
+Tools in WinADK
+	: Win SIM (System Image Manager) - creating and editing unattached answer files used in automated windows installation
+	: DISM (Deployment Imaging Service and Management Tools) - cmdline tool for modifying windows images by adding, removing, or updating components, drivers and updates.
+	: WinPE (Preinstallation Environment) - a light weight bootable verison of windows used for deploying and troubleshooting windows installations.
+	: WPT (Windows Performance Toolkit) - includes tools like windows performance recorder and analyzer for diagnosing and improving system performance.
+	: ACT (Application Compatibility Toolkit) - Helps identify and resolve compatibility issues with applications during windows upgrades.
+	: VAMT (Volume Activation Management Tool) - Used for managing windwos activation in enterprise deployments.
+	: Windows Assessment Toolkit - Assesses hardware, drivers, and applications for compatibility with new windows versions, generatings reports for planning and testing.
+	: windows configuration designer - creates provisioning packages to customize windwos settings during initial device setup, often used with windows autopilot.

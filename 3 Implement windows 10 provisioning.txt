@@ -1,0 +1,10 @@
+3 Implement windows 10 provisioning package 
+
+Exercise 1 - create a provisining package with windows ICD
+
+Imaging and configuration designer (ICD)
+	: It can create provisioning package easily deploy to mobile and desktop on exisiting windows 10	 devices.
+	: windows ICD emphasized on Provisioning not deploying. provisioning retians applications, data, and configuration from the previous installation of windows.
+	: it create a package with .ppkg which included settings, profiles, windows edition upgrade, connectivity profiles, browser settings, start menu customization, management enrollment, universal win applications, and enterprise policies etc.
+	: provisioning package helps you get new machines with pre-installed with windows Pro from your hardware vendors instead of windows  enterprise in your corporate network.
+	: instead of re-imaging the disks you specify the lincense key for edition upgrade in the .ppkg and deploy the .ppkg using removable storage like portable disks, USB sticks, or your organization's preffered tool.

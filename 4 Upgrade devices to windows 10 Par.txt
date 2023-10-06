@@ -1,0 +1,24 @@
+4 Upgrade devices to windows 10 Part I
+5 Upgrade devices to windows 10 Part II
+
+Configure Microsoft Assessment and planning toolkit 
+
+Microsoft Assessment and Planning Toolkit (MAP)
+	: It is detail server utilization information to help IT identify where server are, and which server would be viable to run virtual desktop on.
+	: it is free, agent less, and automated tool. 
+	: MAP uses a local SQL db to store infromation about system data collected from windows devices.
+	: MAP creates an inventory of windows devices containing information like installed apps and OS version.
+	: The inventory guides IT personnel on devising a plan to make a smooth transition to windows 10.
+
+
+
+Features
+	: inventory and assessment - collects details information about the hardware and software in organization's IT environment. it can inventory server desktops, and other devices, as well as discover installed applications and their version.
+	: compatibility assessment - it provides recommandations for addressing compatibility challenegs where identify system potential compatibility issues.
+	: virtualization assessment - MAP assessment organization's readliness for sever virtulization by identifying physical servers that are good candidates for virtulization. 
+	: cloud readliness assessment - 
+	: license inventory - 
+	: capacity planning - 
+	: report generating -
+	: security 
+

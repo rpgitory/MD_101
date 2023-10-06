@@ -1,0 +1,4 @@
+6 Migrate User Profile
+
+User State Migration Tool (USMT) 
+	: used for migrating user profile

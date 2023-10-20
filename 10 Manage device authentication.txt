@@ -1,0 +1,10 @@
+10 Manage device authentication
+
+Microsoft Entra ID (Azure AD)
+	: It is a authenticating users to access applications and resources that the organization use in the cloud.
+	: Idenitity Management - it is centralize user idetity management. it allows you to create and manage user account, group memebership, and permission for access to applications and resources.
+	:Single SIgn On (SSO) - 
+	: Multi Factor Authenticator
+	: Application Integration - it integrates with vast eco system of microsoft and non-microsoft application. it support SAML, OAuth, and OpenID correct protocols for connecting application to Mircosoft Entra (Azure AD)
+	: Conditional access - we can define access policies based on conditions such as user location, device state, and application sensitivity. 
+	: Self-service password reset - User can reset their passwords or unlock their accounts without IT assitance, reducing helpdesk workload

@@ -1,0 +1,16 @@
+11 Manage User Profiles
+
+	- By default user profile is local, 
+	- With a few configuration changes, local profile is convertable to roaming type that follows the user to other windows 10 domain-joined workstations.
+	- A roaming profile is saved on a shared folder on a windows server computer. 
+	- Admin can enable mandatory roaming profiles for domain user accounts.
+	- This profile type allows the user to make customizations while signed-in to a windows 10 device. 
+	- Changes made to the profile are not saved whem the user signs out of the computer.
+	- The mandatory profile stored on the server is downloaded to the computer where the user has successfully logged in.
+
+Roaming Profile
+	- Roaming User profile is a user profile type containing user settings that follows the user regardless of which windows domain member device he logs on in the company network.
+	- After creating the shared folder and settings the required share and NTFS permissions, a domain user account must be explicity configured to use a roaming profile using active directory user and computers.
+	- Implementing a roaming user profile for network user imposes a considerable payload on network bandwidth.
+	- The roaming user profile is downloaded and processed from the sever's shared folder every time the user signs in to the network. 
+	- Roaming profile stored on central server which can be accessed from all domain computers.

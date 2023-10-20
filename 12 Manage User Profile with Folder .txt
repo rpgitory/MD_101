@@ -1,0 +1,5 @@
+12 Manage User Profile with Folder Redirection
+
+	- Group policy objects (GPO) support the folder redirection feature to help administrator create an automatic backup of user data files that network users save on their workstations.
+	- file saved in documents or other folder supported by this feature, are redirected to a network share without user intervention.
+	- when usrs open a file saved in a redirected folde, the connection goes to the network share configured by folder redirection GPO.

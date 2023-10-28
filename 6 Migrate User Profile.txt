@@ -1,4 +1,12 @@
 6 Migrate User Profile
 
+Exercise Migrate User profiles to windows 10
+
+learning outcomes
+populate user folder with profile settings 
+install windows assessment deployment kit
+collect user settings with scanstate
+import user settings with loadstate to windows 10 device
+
 User State Migration Tool (USMT) 
 	: used for migrating user profile

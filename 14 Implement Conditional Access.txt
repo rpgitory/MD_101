@@ -1,0 +1,14 @@
+14 Implement Conditional Access
+
+learning outcomes
+remove device from azure AD
+remove domain-joined computer from active directory
+join the computer to azure AD
+creat conditional access policy 
+
+Exercise 1 Create a conditional access policy
+	- Conditional access is part of the enterprise mobility + security feature of microsoft 365 that provides detailed access controll to organizational data while giving users the freedom to work from any device and location.
+	- EMS featues protects your company's email and proprietary data from risks introduced by devices that do not comply with the policy. 
+	- Enabling conditional acccess for movile devices requires intune and Azure AD.
+	- intune provides the necessary information about device compliance to Azure AD receives a request to access resoucres, it looks up this information with the conditional access policies. 
+	- If coniditional access polciy indicates that a non-compliant devices cannot access a resource, the access requirest denied. if access is denied, the user receives a notification to enroll the device and remidate compliance problesms.

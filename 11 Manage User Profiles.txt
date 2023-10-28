@@ -1,5 +1,22 @@
 11 Manage User Profiles
 
+Exercise configure user profiles
+
+learning outcomes
+create local user profile
+verify local user profile
+create a roaming profile folder 
+configure user for roaming profile
+veriy roaming user profile
+prepare the prerequiresiteas to create a manadatory profile
+create a mandatory profile
+verify madatory profile for the user
+
+Exercise Configure enterprise state roaming in azure AD
+
+learning outcomes
+enable enterprise state roaming 
+
 	- By default user profile is local, 
 	- With a few configuration changes, local profile is convertable to roaming type that follows the user to other windows 10 domain-joined workstations.
 	- A roaming profile is saved on a shared folder on a windows server computer. 

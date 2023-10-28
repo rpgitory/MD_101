@@ -1,5 +1,16 @@
 10 Manage device authentication
 
+Exercise Manage Azure AD join
+ 
+learning outcomes
+remove domain-joined computer from AD
+prepare azure AD account
+join the computer to Azure AD
+sign in using Azure AD account
+verify device memebership in Azure AD
+hybride Azure AD joins
+
+
 Microsoft Entra ID (Azure AD)
 	: It is a authenticating users to access applications and resources that the organization use in the cloud.
 	: Idenitity Management - it is centralize user idetity management. it allows you to create and manage user account, group memebership, and permission for access to applications and resources.

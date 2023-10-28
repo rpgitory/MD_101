@@ -1,5 +1,22 @@
 4 Upgrade devices to windows 10 Part I
+
+Exercise Manage an in-place upgrade
+
+learning outcomes
+
+boot from windwos 10 media and upgrade to windows 10 during run time.3333
+
 5 Upgrade devices to windows 10 Part II
+
+Exercise configure microsoft assessment and planning toolkit
+
+learning outcomes
+
+Enable windows management instrumentation ports
+download and install microsoft assessment and planning toolkit
+create an inventory for desktop clients
+view MAP report
+
 
 Configure Microsoft Assessment and planning toolkit 
 

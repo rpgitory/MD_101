@@ -1,2 +1,29 @@
-7 Manage windows updates
+7 Manage windows updates part I
 
+Exercise install windows server update services feature
+
+learning outcomes
+install WSUS (windows server update services)
+initialize WSUS
+monitor initial synchronization of WSUS
+
+	- WSUS provies a cost effective path management solution to roll out updates to windows device in a corporate network.
+	- WSUS is pre-installed in windows server 2019 and can be further customized based on the requirements of an organization. 
+	- WSUS can obtain updates applicable to windwos OS version and common microsoft programs such as microsoft office and microsoft SQL server. 
+	- Once WSUS has synchronized and downloaded updates, the distribution of software updates for a windows domain workstation is stramlined with the use of group policy objects. 
+	- The WSUS admin must approve said update before windows clients can download them.
+
+Exercise configure windows server update service
+
+learning outcomes
+optimize WSUS performance 
+enable SSL for WSUS server
+export and import SSL certificate
+verify SSL connectivity with WSUS host
+import PLABDM01 SSL certificate to PLABWIN10 
+configure GPO settings for WSUS clients
+
+	- configure memory allocation and worker process in internet information services to fine-tune WSUS.
+	- To enhance network sercurity during the distribution of updates, you will use an internal server certificate from AD certificate services.
+	- SSL is recommended for WSUS admin and the distribution of updates to local domain dervices. 
+	- you will create GPO to ensure that updates are distributed to target domain workstations

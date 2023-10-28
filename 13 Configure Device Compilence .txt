@@ -1,0 +1,18 @@
+13 Configure Device Compilence 
+
+learning outcomes
+remove devices from azure AD
+remove computer from on-premise active directory
+join the computer back to azure AD
+create a compliance policy
+create a security group
+assign policy to a group and evaluate policy 
+
+Exercise create device compliance policy
+
+	- Microsoft itune uses device compliance policies to protect your organization's mobile and windows devices.
+	- Compliance policies indicate the rules and device settings that should be setup on a device to be considered compliant.
+	- After set up and deployment of compliance policy.
+	- you can monitor the copliance status and devices that are configured based on the policy settings.
+	- before applying a compliance policy to a device, it must first be registered to intune either by joining it to Azure AD or enrollment into mobile device management.
+	- 

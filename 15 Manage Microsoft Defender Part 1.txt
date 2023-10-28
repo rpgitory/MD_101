@@ -1,0 +1,22 @@
+15 Manage Microsoft Defender Part 1
+
+learning outcomes
+
+Exercise - Create Microsoft Defender Active Profile 
+
+Remove Device from Azure AD
+Remove Domain-joined computer from active directory
+Join the computer to Azure AD
+Configure Microsoft defender antivirus profile
+Verify microsoft defender settings
+remove the microsoft defender configuration profile
+
+	- windows defender security center is a fully integrated product that covers all security aspects for windows 10 OS system, accounts, and applications used on the computer. 
+	- virus and threat protection deal with antivirus and anti-malware tasks.
+	- account protection secures sign in options, windows hello sign-in, and dynamix lock settings
+	- Firewall and network protection provide a host-based firewall to configure applications that can communicate through firewalls and network profiles such as domain, public, or private
+	- app and browser control include the windows defender smartscreen feature to protect a device by checking for unrecognized apps and files from the internet. 	
+	- Smartscreen feature likewise works for microsoft edge and microsoft store apps.
+	- device security collects info. about processor core isolation, processor security, trusted platform module (TPM), and secure boot features.
+	- Device performance and health verify that windows is up-to-date and look for other issues that can impact general device health. similarly, you can check for storage capactiy issues, device problems, battery life, apps, and windows services issues.
+	- Family options are where you can review and configure available options for family safely and parental controls to protect kids while online.

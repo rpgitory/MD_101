@@ -1,0 +1,65 @@
+16 Manage Microsoft Defender Part two
+
+learning outcomes
+
+Exercise :- Know about Microsoft Defender Application Guard and Create Microsoft Defender Application Control Profile
+
+Remove Device from azure AD
+Remove Domain-joined Computer from Active Directory
+Join the computer to Azure AD
+Create Microsoft Defender Application Control Profile
+
+Microsoft Defender Application Control (WDAC) 
+	: Supported in windows 10
+	: enable comapanies to control what files, apps, drivers are allowed to run their respective devices
+	: Device driver *.sys
+	: Dynamic link libraries DLLs *.dll, *.ocx
+	: Windows installer files *.msi, *.mst, *.msp
+	: Scripts *.ps1, *.vbs, *.js	
+	: Packaged apps, packaged app, installer *.appx
+
+	- the files above are signed through the use of code signatures from software publisher
+	- For in-house developed apps, an administrator can create a manifest of executable
+	- The manidest file is signed by the organization and deployed to windows 10 enterprise device
+	- win10 version 1903 on any edition 
+	- win10 enterprise before version 1903, supports the application of WDAC policies using group policy object (GPO) or Itune.
+	- WDAC policy applies to the entire device regardless of who signs in to it.
+	- Itune calls WDAC as Microsoft Defender Application Control (WDAC) when managing profiles for Azure AD-joined devices.
+	
+
+Microsoft Defender Application Guard Profile
+	: Windows Defender Application Guard (WDAG) locks down windows 10 devices to allow only trusted applications.
+	: win 10 Enterprise, win 10  professional version 1803 support WDAG
+	: This feature uses a hardware isolation approach to run user applications without the risk of being compromised by attacker.
+	: Microsoft Edge is an application capable of running in an isolated container mode
+	: If an employee goes to an untrusted website using microsoft edge, the website opens in a hyper-V enabled container separate from the physical computer.
+	: WDAG requires a  win 10 device supported hardware virtualization to install the feature. In addition, a-64 bit computer with a minimum of 4 cores (logical processors) and 8 GB of system memory are required.
+	: Intune rebrands WDAG as Microsfot Defender Application Gurad (MDAG) when managing profiles for Azure AD-joined devices.
+
+
+Exercise :- Know about Microsoft Defender Credential Gurad and Create Microsoft Exploit Guard Profiles
+	
+learning outcomes
+	- Create Microsoft Defender Exploit Guard Profile
+	- Verify Microsoft Defender Profile Assigned to User
+	- Verify Application of Microsoft Defender Profiles 
+	- Remove All Microsoft Defender Profiles
+
+
+	: Windows Defender Exploit Guard (WDAG) is a host-based intrusion prevention tool that minimizes the attakck surface of the system and user application on windows 10. 
+	: Exploit Protection applies exploit mitigation features to system processes and individual user applications. 
+	: To enables exploit protection, go to settings > update and security > windows defender > windows defender security center > app and browser control and scroll to exploit protection.
+	: Network Protection works with windows defender smartscreen in microsoft edge browser and protects network traffic by blocking phishing and harmful sites when users sign in to company-owned devices.
+	: This feature requires windows defender antivirus. Using group policy management editor, go to windows components > windows defender antivirus > Windows exploit Guard > Network Protection. Open the prevent users and apps from accessing dangerous websites setting and selete enabled.
+	: Attack surface reduction requires windwos defender antivirus. It is feature where you can individually minimize the attack surface of user applications with intelligent rules that stop the vectoes used by office, scripts, and email-based malware.
+	: Using Group policy management editor, navigate to computer configuration > Policies > Administrative Templates > Windows Components > Windows Defender Antivirus > Windows Defender Exploit Guard > Attack Surface reduction. Open Configure attack surface and select enabled.	
+	: Controlled folder access protects files in essential system folder from modification by malware and suspicious application such as file encrypting enable controller folder access with group policy management editor, go to computer configuration > Policies > Administrative Templates > windwos components > windows Defender Antivirus > windows Defender Exploit Guard, then select controller folder access. Open configure controlled folder access and select enabled.
+	
+Micorsoft Defender Credential Guard Profile
+	: Win 10 user credential manager as a local repository to share web and win credential. 
+	: web credentials cache user names and passwords when visiting secure websites with microsoft edge microsoft store apps. 
+	: Similary, windows credential refer to the user name and password to sign in to an internet service or local network address. within windows credential, 
+		- Certificate credentials requires a smart certificate to authenticate to a local or network device.
+		- Generic credential likewise cache user names and passwords for local windows logons and network services such as skype for desktop, outlook.com and OneDrive.
+	: Keep other credential entries from reputable organization and delete the others that you do not trust. 
+	: Intune has Microsoft Defender Credential Guard (MDCG) where you can create profile to set policy on credential guard settings in win10. 

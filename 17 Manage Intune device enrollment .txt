@@ -1,0 +1,32 @@
+17 Manage Intune device enrollment and inventory 
+
+Exercise : Prepare Prerequisites for Azure AD Hybride Join
+
+learning outcomes
+	- Remove Device from Azure AD
+	- Create on Azure AD Connect Service Account
+	- Create a VPN suffix similar to Azure AD Domain
+	- Edit Machine.config
+	- Turn off Enhanced Security Configuration
+
+
+
+	: Device must first be enrolled with intune service to enable Azure AD admin to manage them.
+		- Users can self-enroll their windows devices
+		- Admin can create policies to automatically enroll windows devices without user intervention.
+
+	: Admin can use hybride azure AD join to enroll windows devices joined to corporate AD with no user interaction. this feature requires registration of a local active directory to Azure AD correct app.
+	: Azure AD connect is a tool to synchronize an on-premmises AD to Azure AD. after successful synchronization, User in the local AD domain can sign-in to app in Azure AD.
+
+
+Exercise 2 : Configure automatic device enrollment 
+
+learning outcomes 
+	- install and configure Azure AD connect 
+	- Enable hybride Azure AD join
+	- Create GPO for device auto-enrollment 
+	- Verify device auto-enrollment status
+	- Download psexec.exe and debug android Azure AD join
+
+	: To enable windows devices to automatically enroll with intune, Azure AD connect must be setup on the local AD to synchronize with Azure AD.
+	: 

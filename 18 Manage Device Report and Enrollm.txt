@@ -1,0 +1,13 @@
+18 Manage Device Report and Enrollment 
+
+Exercise : Manage Device Report
+	
+Learning outcomes
+	- Remove Device from Azure AD
+	- Remove Domain Computer from AD
+	- Join the computer to Azure AD
+	- Create Computer Inventory and Report
+
+- Intune or Microsoft Manager provides comprehensive reporting methods that help the admin and IT support personnel monitor the system acitivty and status of devices registered in Azure AD.
+- Intune reports device compliance based on status, perating system type, and ownership also Intune supports trends where Intunes draw charts based on a timeline.
+- Can mouse-over a chart area to collect information about endpoints then create filters based on their compliance status and OS version.

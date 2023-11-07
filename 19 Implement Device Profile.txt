@@ -1,0 +1,29 @@
+19 Implement Device Profile
+
+Exercise :- Maanage a Device Profile
+	
+Learning Outcomes
+	- Remove Device from Azure AD
+	- Remove Domain Computer from active Directory
+	- Join the computer to Azure AD
+	- Assign Licenses to Users	
+	- Create a Security Group
+	- Create a Device Profile
+	- Enable Remote Desktop
+	- Verify application of control panel Restrictions
+
+	: Mircosoft Endpoint Manager supports configuration prolicies feature containing device profile that control the system, and user environment of devices enrolled in Azure AD.
+		- Wireless Profile that enables devices access to your corporate Wi-Fi network.
+		- A virtual private network (VPN) profile that allows devices to connect to VPN servers owned by the company.
+	: we can create the configuration policies that will create system restriction for windows 10 devices enrollment in the Azure tenant.
+	: below all aspects can manage by ..
+		- Device features
+		- Device restrictions
+		- E-mail
+		- Wi-Fi
+		- VPN
+		- Education
+		- Edition upgrades
+		- Endpoint protection settings
+		- windows information protection
+		- custom settings for open mobile alliance uniform resource identifier (OMA - URI) and others.

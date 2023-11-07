@@ -1,0 +1,31 @@
+20 Implement Azure Information Protection
+
+Exercise :- COnfigure Prerequisites for Azure Information Protection
+
+Learning Outcomes
+	- Remove Device from Azure AD
+	- Remove Domain Computer from AD
+	- Join the Computer to Azure AD
+
+	: The disclosure of proprietary information to unauthorization parties is a risk that is addressed with the use of technologies like encryption, signed e-mail, and password protected files.
+	: This encryption required certificate from authorities called public key infrastructure.
+	: Managing PKI service calls for administrative overhead as it emails the management of certificates for user and external users.
+	: end-user training is a requirement to ensure that employees make informed decisions on whether to apply for document protection or otherwise when managing work-related files
+	
+
+Exercise :- Implement Information Protection Lables
+
+Learning Outcomes
+	- Acticate Information Protection in Microsoft  complaince center
+	- Create a custom lable
+	- Publish the Lables
+	- Install Azure Information Protection Client Unified Labeling 
+	- Enable remote Desktop
+	- Verify AIP Policy
+
+	: Azure Information Protection is a cloud-based document protection feature that provides classification, labeling, and data protection. 
+	: Emails and documents created in Microsoft office use Information protection to classify, label, and protected data. 
+	: Compared to data encryption, information protection has mechanisums, to recognize sensitive information os it alerts users when they work with such data types.
+	: Default lables lay the groundwork from which Azure admin can use data protection. also custom labels are supported where you can create rules based on data types pharases entered by users in their documents.
+	: To successfully implement information protection, you will need to first create rules and policies for classification,.
+	: you will then configure labeling and data protection, for instance, you can specify data types such as personally identificable information (PII) like social security or financial information such as credit card numbers or bank account numbers, moreover custom keywords like 'salary' are conditions for automatic or recommended classification.

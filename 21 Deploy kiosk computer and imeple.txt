@@ -1,0 +1,58 @@
+21 Deploy kiosk computer and imeplement app sideloading
+
+Exercise :- Configure a kiosk computer
+
+learning outcomes 
+	- Remove domain-joined computer from active directory 
+	- Create a local user account for kiosk and sideloading tasks
+	- Enable remote desktop
+	- Configure kiosk for a local user
+	- Verify the kiosk functionality 
+
+kiosk Comouter 
+	: Single App mode - it is often configured to run a signle application or specific set of application, restriction access to the desktop and other system functions
+	: User restriction - Access to the underlying OS system is rstricted to prevent users from making unauthorized changes or accessing sensitive system functions
+	: Auto-logon - Kiosk computers are often set to automatically log in and launch the designated application upon startup.
+	: Enhanced Security - security features such as lockdown of the file system, browser, and network access, can be implemented to protect the kiosk computer from misuse or tempering.
+
+	: win10 support kiosk computer, which is device to designed to performed a single task.
+	: Ornaginzation that allow guest access to their corporate network can configure a kiosk computer allocated for visiting users.
+	: kiosk computer comes with one application, such as web browser, that visitor can visit websites n check their e-mails using only one application.
+	: The lock-down user interface of kiosk computer minimizes the risks of exposing your internal network to part-time users.
+	: It limits guest access to essential win system settings intended for the internal IT department
+	: kiosk computer are not memebers of the company active directory, thereby minimizing interaction with corporate assets.
+
+
+Exercise :- Collect office readliness data
+	
+learning outcomes
+	- install office readliness toolkit
+	- run office readliness toolkit
+
+Office readliness data
+	: the purpose of it is to ensure a smooth and successful deployment by understanding the organization's current infrastructure, identifying potential compatibility issues, and making informed decision to address any challenges before rolling out office application to end-user.
+	: key factor for office readliness data
+		- Inventory of current office versions
+		- Hardware and software assessment 
+		- add-in and macro compatibility 
+		- OS compatibility
+		- Network and bandwidth assessment 
+		- user profiles and preferences 
+		- Security and compliance requirements 
+		- testing and validation 
+	: Office macros created by end-user enhanced productivity as repetitive tasks are completed with a click of a toolbar button or a command in the pull-down menus.
+	: Visual Basic for applications or VBA lines of code is automatically generated when an office app user creates a macro also office adds-ins expapnd the capabilities of office apps like word. features such as advanced grammer checkers, file converters, document reviewers and research tools are some free add-ins available for word.
+	: the installed office add-ins may become unmanageable, which can lead to application issues if not addressed properly. 
+	: IT personnel must look for way to make these add-ins macros compatible when new office versions become available to the public.
+	: The readliness toolkit for office add-ins and VBA help identify compatibility issues with office add-ins used by your organization and visual basic for application macros.
+	: The readliness to help organization access their readliness to transition to office 365 apps.
+
+Exercise :- Enable sideloading of apps to an image
+
+learning outcomes
+	- enable file and printer sharing part
+	- enable application sideloading
+	- trust the self-signed certfication
+	- sideload an application
+	
+	: 

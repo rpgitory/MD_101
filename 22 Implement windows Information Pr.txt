@@ -1,0 +1,20 @@
+22 Implement windows Information Protection
+
+Exercise :- Create Windows Information Protection Policy
+	
+Learning outcomes
+	- Verify MDM and MAM settings
+	- Remove Device from AD
+	- Remove PLABWIN10 from Azure AD
+	- Join the Computer to Azure AD
+	- Create a Net User Group
+	- Create a windows Information Protection Policy
+	- Test Functionality Of WIP
+	- Send Document to an External Party
+
+	: Collaboration between corporate and external users and the popular of BOYD has increaded the risk of unintentioal or malicious data leckage.
+	: This risk has grown exponetially with the expanded use of mobile apps, cloud-based services, and social media.
+	: Microsoft Endpoint Manager supports data loss prevention (DLP) system called windows infromation protection (WIP)
+	: A DLP system automatically detects and control data that should be protected and protects data from being copied despite the location.
+	: windows security features such as bitlocker drivr encryption, applocker, and microsoft Azure Rights Managements are the technologies used by windows information protection (WIP).
+	: WIP relies on Microsoft Endpoint Manager to configure and rollout policies to specify protected applications and the appropriate protection levels to corporate data.

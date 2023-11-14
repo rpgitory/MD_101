@@ -1,0 +1,22 @@
+23 Migrate to GPOs to MDM
+
+Exercise :- Manage MDM Migration Analysis Tool
+	
+Learning Points
+	- Import ADMX Template
+	- Create Sample GPO
+	- Download and install RSAT
+	- Run MDM Migration Analysis Tool
+
+Migration Analysis Tool (MMAT) 
+	: IT is free set of utilities composed of a windows PowerShell Script app, an XML file mapping GPOs to MDM to help IT personnel plan migration to GPO to Mobile device management (MDM).
+	: Migration of Active DIrectory GPOs to cloud-based MDM requires careful planning. 
+	: A manual inventory of GPOs in the organization and then cross-referencing this to MDM will be benefecial to ease the transition to MDM policies.
+	: To ensure that the MMAT runs successfully you must pre-installed the remote server admin tool (RSAT).
+	: RSAT is set of utilies for admin windows server in AD.
+	: Elevanted permission is required to run the PowerShell script on the win10 device successfully 
+	: GPO includes hundereds of Policy settings that use the .admx file
+		- .admx extension name are admin template XML basded file that replaces the .adm extension name are 
+		- .admx temp file describs windwos and office Group Policy Settings that stored in win registry.
+		- Microsoft publishes .admx temp to set policies for app such as office.
+	: MDM only support mapping of GPO that are configured by either ADMX or by windows Advanced firewall client extension (CSE)

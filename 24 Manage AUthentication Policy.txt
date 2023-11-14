@@ -1,0 +1,13 @@
+24 Manage AUthentication Policy
+	
+Exercise :- Enable Multi-Factor Authentication 
+
+Learning Outcomes
+	- Configure MFA for a User
+	- Verify MFA for a User 
+
+	
+Multi-factor Authentication
+	: Implementing MFA in Azure AD is straightforward as it does not require additional services or security infrastructure in the local network.
+	: MFA included with Azure premium or enterprise + security mobility or microsoft365 business premium.
+	: An admin enters the phone number and email address details in the user's authentication methods property and enables the user for MFA
